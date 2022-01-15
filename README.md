@@ -4,7 +4,7 @@ This is small utility that we use to generate passphrase mnemonics.
 
 It can be use in the code or as CLI.
 
-> The code is based on existing work. Initially, I extracted the part I needed for our [Identity Box app](https://github.com/identity-box/identity-box/tree/master/workspaces/idapp/src/crypto). Unfortunately, the time passed and I do not remember anymore where was the original repo. If you happen to know, please let me know, and I will be happy to include the reference.
+> The code is based on existing work. Initially, I extracted the part I needed for our [Identity Box app](https://github.com/identity-box/identity-box/tree/master/workspaces/idapp/src/crypto). Unfortunately, the time passed and I do not remember anymore where was the original repo. I tried to search, but it turns out there is a lot (like really a lot) of similar code on GitHub. If you happen to know, please let me know, and I will be happy to include the reference.
 
 ## Code
 
