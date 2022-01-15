@@ -42,31 +42,31 @@ Allowed entropy length N (the argument to `nacl.randomBytes`) must be `16 <= N <
 To use it as CLI run:
 
 ```bash
-$ npx github:/identity-box/mnemonic-passphrase
+npx github:/identity-box/mnemonic-passphrase
 ```
 
 To generate a random passphrase (from a 32B entropy) run:
 
 ```bash
-$ npx github:/identity-box/mnemonic-passphrase passphrase
+npx github:/identity-box/mnemonic-passphrase passphrase
 ```
 
 To generate an entropy of length `16B` run:
 
 ```bash
-$ npx github:/identity-box/mnemonic-passphrase random -N 16
+npx github:/identity-box/mnemonic-passphrase random -N 16
 ```
 
 To generate a passphrase from the given entropy:
 
 ```bash
-$ npx github:/identity-box/mnemonic-passphrase passphrase 4af32d3079b75f48a7358e799710dfc4
+npx github:/identity-box/mnemonic-passphrase passphrase 4af32d3079b75f48a7358e799710dfc4
 ```
 
 And finally, to retrieve the original entropy from the passphrase:
 
 ```bash
-$ npx github:/identity-box/mnemonic-passphrase entropy "enough offer equal vibrant invest picture orphan range kangaroo review dawn mass"
+npx github:/identity-box/mnemonic-passphrase entropy "enough offer equal vibrant invest picture orphan range kangaroo review dawn mass"
 ```
 
 For help, you can use `--help` with any of the commands.
