@@ -4,6 +4,8 @@ This is small utility that we use to generate passphrase mnemonics.
 
 It can be use in the code or as CLI.
 
+> The code is based on existing work. Initially, I extracted the part I needed to be use in our Identity Box app. Unfortunately, the time passed and I do not remember anymore where was the original repo. If you happen to know, please let me know, and I will be happy to include the reference.
+
 ## Code
 
 The example below shows typical usage:
